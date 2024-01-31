@@ -32,7 +32,7 @@ const DayCard = ({temp,icon,minTemp,maxTemp,humidity,wind,desc,tempUnit,setTempU
         </div>
         <div className='item'>
         <FontAwesomeIcon icon={faWind} size="lg" style={{color: "#FFD43B",}} />
-          <div className='item-text'>Wind speed and direction - {wind}</div>
+          <div className='item-text'>Wind speed and direction - {wind} km/h</div>
         </div>
         <div className='item'>
         <FontAwesomeIcon icon={faCloud} size="lg" style={{color: "#FFD43B",}} />
